@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-zaql
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/happy-path-service-tenant/appstudio/dc-metro-map-zaql@sha256:d93805036d6005333034736a1e8dc63a0c127bcd2302c0e87b1b4abd3698847c
+        name: my-nodejs
+        resources: {}
+status: {}
