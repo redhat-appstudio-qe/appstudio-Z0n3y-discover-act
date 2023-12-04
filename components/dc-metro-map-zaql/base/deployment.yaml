@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-zaql
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/happy-path-service-tenant/appstudio/dc-metro-map-zaql@sha256:d93805036d6005333034736a1e8dc63a0c127bcd2302c0e87b1b4abd3698847c
         name: my-nodejs
         ports:
         - containerPort: 3001
